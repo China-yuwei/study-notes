@@ -28,3 +28,23 @@
             src指存储图像的位置,
             alt属性用来为图像定义一串预备的可替换的文本,
             height（高度）与 width（宽度）属性用于设置图像的高度与宽度。
+8、有序列表的类型：默认(1,2,3,4);
+                type="A"，大写字母列表(A,B,C,D)
+                type="a"，小写字母列表(a,b,c,d)
+                type="I"，罗马数字列表(I)
+                type="i"，小写罗马数字列表(i)
+9、无序列表的类型：默认，圆点
+                style="list-style-type:disc"，圆点
+                style="list-style-type:circle"，圆圈
+                style="list-style-type:square"，正方形
+10、块级元素：<div>,<h>,<hr>,<p>,<ul>,<ol>,<li>,<table>,<tbody>,<thead>,<th>,<tr>,<td>,     <header>,<footer>,<section>,<addres>,<article>
+11、行内元素：<span>,<a>,<b>,<big>,<br>,<i>,<img>,<input>,<small>,<sub>,<sup>,<em>,<strong>,<button>,<select>,<label>,<textarea>
+12、符号：<: &lt;或&#60;或&#060;
+        >:&gt;或&#62;
+        空格:&nbsp;或&#160;
+        &:&amp;或&#38;
+        ":&quot;或&#34;
+        ￥:&yen;或&#165;
+        *:&times;或&#215;
+        除:&divide;或&#247;
+        参考网站：https://www.runoob.com/tags/ref-entities.html

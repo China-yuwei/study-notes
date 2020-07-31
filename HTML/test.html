@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .recommend-icon-box {
+            position: relative;
+        }
+
+        .recommend-icon {
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: linear-gradient(135deg, rgb(253, 98, 96) 50%, transparent 50%);
+        }
+
+        .recommend-icon .recommend-icon-small {
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: linear-gradient(135deg, #fff 50%, transparent 50%);
+        }
+
+        .recommend-icon span {
+            position: absolute;
+            top: 10px;
+            left: 5px;
+            transform: rotate(315deg);
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="recommend-icon-box">
+        <div class="recommend-icon" v-if="rankLists.hot == '1'">
+            <span>推荐</span>
+            <div class="recommend-icon-small"></div>
+          </div>
+    </div>
+
+</body>
+
+</html>
